@@ -17,6 +17,15 @@ background-color: #fff;
 .fs-5 {
   font-size: 18px !important;
 }
+.lfy-journe{
+  display: none;
+}
+h5{
+  font-size: 22px;
+}
+.pers{
+  margin-top: 20px;
+}
 .gallery{
   background-color: #642020;
   padding: 30px 0px;
@@ -37,7 +46,7 @@ background-color: #fff;
   
 }
 .modal-content{
-  background-color: #642020;
+  background-color: #000;
 }
 .modal-header {
 border-bottom: none;
@@ -109,15 +118,8 @@ p{
   font-size: 18px;
   line-height: 22px;
 }
-.bb-img::before{
-  content: '';
-  background-image: url(../img/Vector5.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 300px;
-  height: 50px;
-  position: absolute;
-  z-index: 999;
+.b-img{
+  margin-top: 50px;
 }
 a{
     text-decoration: none;
@@ -143,14 +145,21 @@ header{
     text-align: center;
 }
  .navbar-nav .nav-link.active {
-    color: #9C0A0A;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+ } 
+.nav-link:focus, .nav-link:hover{
+  color: #fff;
+  border-bottom: 1px solid #fff;
 }
+
 .nav-link{
-    color: #000;
+    color: #fff;
     font-weight: 500;
     margin-right: 40px;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
+    margin-right: 8px;
 }
 /* tooltip start */
 .tooltip-inner {
@@ -171,7 +180,8 @@ header{
 /* tooltip ends */
 
 .navbar{
-    background-color: #EFEFEF;
+    background-color: #000;
+   
     
 }
 .pet{
@@ -244,8 +254,7 @@ position: relative;
   left: 16%;
 }
 .galler-img{
-    background-image: url(../img/Group27.png);
-    background-repeat: no-repeat;
+    background-color: #000;
     height: 450px;
     color:#fff;
     padding: 60px 20px;
@@ -259,7 +268,7 @@ position: relative;
    
 }
 .khela{
-    background-color: #F8F6F6;
+    background-color: #eff2f857;
     padding: 30px 0px;
 }
 .bu-txt{
@@ -314,7 +323,7 @@ h2{
     font-style: normal;
     text-transform: none;
     font-size: 30px;
-    color:#9C0A0A !important;
+    color:#4a3aa7 !important;
     font-weight: 500 !important;
     text-align: left;
     margin-bottom: 20px;
@@ -372,7 +381,7 @@ h2{
   .dot-line{
     width: 20px;
     height: 20px;
-    background-color: #9C0A0A;
+    background-color: #4a3aa7;
     border-radius: 50px;
   }
   .dot {
@@ -711,6 +720,11 @@ h2{
   right: 16.5%;
   
 }
+.nav-link {
+  
+  font-size: 13px;
+  margin-right: 1px;
+}
 .bnr-img {
     position: relative;
     margin-top: -598px;
@@ -791,7 +805,7 @@ h2{
     top: 0;
     right: 15px;
     color: #fff;
-    background-color: #642020;
+    background-color: #4a3aa7;
     z-index: 4;
     width: 40px;
     text-align: center;
@@ -817,7 +831,7 @@ h2{
     padding: 10px 30px;
     text-align: center;
 	font-size: 16px;
-	background-color: #642020;
+	background-color: #000;
     font-weight: 600;
     margin-top: 10px;
     font-weight: 400;
@@ -948,8 +962,11 @@ h2{
 .navbar-brand{
   display: block;
 }
-.header-top, .dot, .dots, .dotts, .journey-line{
+.header-top, .dot, .dots, .dotts, .dotts1, .dotts2, .dotts3, .dotts4{
   display: none;
+}
+.bu-txt {
+  margin: 0px;
 }
 .bnr-img {
   margin-top: -180px;
@@ -985,5 +1002,35 @@ h5{
 }
 .grey-box {
   margin-bottom: 15px;
+}
+.navbar {
+  background-color: #f2f3f4;
+}
+.navbar-nav .nav-link.active {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+.nav-link {
+  color: #000;
+}
+.b-img {
+  margin-top: 30px;
+}
+.lfy-journe{
+  display: block;
+  margin: 20px 0px;
+}
+
+.journey-line {
+ display: none;
+}
+.jjcolour{
+  background-color: #fff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, .175);
+  padding: 8px 8px 0px 5px;
+  margin-bottom: 10px;
+}
+.jjcolour img {
+  margin: 3px 0px 0px 0px;
 }
 }
